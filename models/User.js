@@ -25,6 +25,10 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: [true,'Please enter a bio']
     },
+    telephone : {
+        type: Number,
+        required: [true,'Please enter your telephone tumber']
+    },
     pic: {
         type: String,
         required: [true,'Please enter a pic url']
